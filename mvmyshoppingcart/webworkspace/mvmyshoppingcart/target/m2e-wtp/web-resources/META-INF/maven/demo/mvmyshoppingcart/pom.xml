@@ -5,11 +5,11 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>demo</groupId>
-  <artifactId>mvSpHb20220701</artifactId>
+  <artifactId>mvmyshoppingcart</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <packaging>war</packaging>
 
-  <name>mvSpHb20220701 Maven Webapp</name>
+  <name>mvmyshoppingcart Maven Webapp</name>
   <!-- FIXME change it to the project's website -->
   <url>http://www.example.com</url>
 
@@ -26,7 +26,7 @@
       <version>4.11</version>
       <scope>test</scope>
     </dependency>
-       <dependency>
+        <dependency>
     	<groupId>javax.servlet</groupId>
     	<artifactId>jstl</artifactId>
     	<version>1.2</version>
@@ -51,11 +51,15 @@
 			<artifactId>hibernate-core</artifactId>
 			<version>5.4.29.Final</version>
 	</dependency>
-
+	<dependency>
+      	<groupId>org.hibernate</groupId>
+      	<artifactId>hibernate-validator</artifactId>
+      	<version>6.1.7.Final</version>
+      </dependency>
   </dependencies>
 
   <build>
-    <finalName>mvSpHb20220701</finalName>
+    <finalName>mvmyshoppingcart</finalName>
     <pluginManagement><!-- lock down plugins versions to avoid using Maven defaults (may be moved to parent pom) -->
       <plugins>
         <plugin>
